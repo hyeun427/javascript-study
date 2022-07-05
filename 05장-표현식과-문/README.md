@@ -158,3 +158,5 @@ console.log(foo()); // undefined
 ![](https://velog.velcdn.com/images/dooin/post/3db42bca-6f91-405b-bc9b-ef76d5aab2dd/image.png)
 
 반대로 표현식인 문을 실행하면 평가된 값을 반환한다.
+
+(메시지 수정)
