@@ -94,9 +94,9 @@ foo();
 new foo();
 ```
 
-- soqn aptjem `[[Call]]`을 갖는 함수 객체를 **callable**, `[[Construct]]`를 갖는 함수 객체를 **constructor**, `[[Construct]]`를 갖지 않는 함수 객체를 **non-constructor**라고 부른다.
+- 내부 메서드 `[[Call]]`을 갖는 함수 객체를 **callable**, `[[Construct]]`를 갖는 함수 객체를 **constructor**, `[[Construct]]`를 갖지 않는 함수 객체를 **non-constructor**라고 부른다.
 
-- 모든 함수 객체는는 내부 메서드 `[[Call]]`를 가지고 있지만 모든 함수 객체가 `[[Construct]]`를 갖는 것은 아니다. (모든 함수 객체를 생성자 함수로서 호출할 수 있는 것은 아니라는 뜻)
+- 모든 함수 객체는 내부 메서드 `[[Call]]`를 가지고 있지만 모든 함수 객체가 `[[Construct]]`를 갖는 것은 아니다. (모든 함수 객체를 생성자 함수로서 호출할 수 있는 것은 아니라는 뜻)
 
 ---
 
