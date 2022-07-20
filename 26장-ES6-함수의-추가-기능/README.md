@@ -39,8 +39,10 @@ const arrow = x => { ... };
 const arrow = (x, y) => { ... };
 const arrow = () => { ... };
 ```
+
 - 함수의 몸체가 하나의 표현식이라면 중괄호를 생략할 수 있다. 이때 해당 표현식을 평가한 값이 암묵적으로 반환된다.
-  ```js
+
+```js
 // concise body
 const power = x => x ** 2;
 power(2); // -> 4
@@ -49,7 +51,9 @@ power(2); // -> 4
 // block body
 const power = x => { return x ** 2; };
 ```
+
 - 객체 리터럴을 반환하는 경우 소괄호로 감싸 주어야 한다.
+
 ```js
 const create = (id, content) => ({ id, content });
 create(1, 'JavaScript'); // -> {id: 1, content: "JavaScript"}
