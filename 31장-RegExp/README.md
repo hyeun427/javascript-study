@@ -1,4 +1,4 @@
-# javascript-study
+<!-- # javascript-study
 
 # 31장 RegExp
 
@@ -753,4 +753,4 @@ const target = "abc#123";
 [31 - 41];
 
 target.replace(/[^A-Za-z0-9]/gi, ""); // -> abc123
-```
+``` -->
