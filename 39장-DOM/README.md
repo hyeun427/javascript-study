@@ -95,7 +95,7 @@ DOM은 노드 객체의 개충적일 구조로 구성되는데, 노드 객체는
 
   - HTML 요소의 어트리뷰트를 가리키는 객체
   - 부모 노드가 없고 어트리뷰트가 지정된 요소 노드와 연결되어 있음
-  - 부모 노드가 없으므로 요소노드의 형제는 아님
+  - 부모 노드가 없으므로 요소 노드의 형제는 아님
   - 어트리뷰트 노드에 접근하려면 요소 노드에 먼저 접근해야 함
     <br>
 
@@ -354,7 +354,7 @@ const $all = document.getElementsByTagName("*");
 
 ### 39.2.3 class를 이용한 요소 노드 취득
 
-- `Document.prototype/Element.prototype.getElementsByClassName` 메서드는 인수로 전달한 class 어트리뷰트 값을 갖는 모드 ㄴ요소 노드들을 탐색하여 반환한다.
+- `Document.prototype/Element.prototype.getElementsByClassName` 메서드는 인수로 전달한 class 어트리뷰트 값을 갖는 모든 요소 노드들을 탐색하여 반환한다.
 
 - 인수로 전달할 class 값은 공백으로 구분하여 여러 개를 지정할 수 있다.
 
@@ -589,6 +589,8 @@ const $all = document.querySelectorAll("*");
 - DOM API가 여러 개의 결과값을 반환하기 위한 DOM 컬렉션 객체
 - 유사 배열 객체이면서 이터러블 (for...of문으로 순회 가능, 스프레드 문법으로 배열 변환 가능)
 - 노드 객체의 상태 변화를 실시간으로 반영하는 **"살아 있는 객체"**
+  - HTML 컬렉션은 언제나 live 객체
+  - NodeList는 대부분 non-live이지만 경우에 따라 live로 동작할 때도 있음
 
 <br>
 
