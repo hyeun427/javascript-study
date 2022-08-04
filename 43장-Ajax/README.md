@@ -69,7 +69,3 @@ console.log(typeof json, json);
 ### 43.3.4 HTTP 응답 처리
 
 - HTTP 요청의 현재 상태를 나타내는 ```readyState 프로퍼티```값이 변경된 경우 발생하는 readystatechange 이벤트를 캐치해서 HTTP 응답을 처리한다.
-
----
-블로그에 작성한 파트 외 정리본은 아래의 깃헙에서 확인 가능합니다!
-> https://github.com/hyeun427/javascript-study
